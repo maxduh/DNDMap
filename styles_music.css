@@ -182,3 +182,11 @@ body{
     width: 50%;
     background-color: #04AA6D;
   }
+  .cntrls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button_play{
+    margin: 10px 10px;
+  }

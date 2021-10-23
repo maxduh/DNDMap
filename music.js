@@ -46,6 +46,18 @@ function Set(q){
         a1=1;
         a2=2;
         
+    }else if(q==10){
+        a1=1;
+        
+    }
+    else if(q==20){
+        a2=1;
+        
+    }
+    else{
+
+        a1=1;
+        a2=1;
     }
     
 }
@@ -60,9 +72,14 @@ function Update(){
     }else if(a1==1){
         if(v1>-0.75){
             v1-=0.005
+            if(v1<0){
+                e1.pause();
+                e1.currentTime=0;
+            }
         }else{
                 v1=-0.75
                 a1=0
+
             }
     }
     if(a2==2){
@@ -74,9 +91,14 @@ function Update(){
     }else if(a2==1){
         if(v2>-0.75){
             v2-=0.005
+            if(v2<0){
+                e2.pause();
+                e2.currentTime=0;
+            }
         }else{
                 v2=-0.75
                 a2=0
+                
             }
     }
 
