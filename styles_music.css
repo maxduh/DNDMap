@@ -168,6 +168,7 @@ body{
     width: 35vmin;
     display: table;
      margin: auto;
+     border-radius: 50%;
   }
 
   .PBar{
@@ -189,7 +190,4 @@ body{
   }
   .button_play{
     margin: 10px 10px;
-  }
-  .plate{
-    border-radius: 50%;
   }
