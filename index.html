@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DnD</title>
+    <link rel="shortcut icon" href="assets/icon.png">
+    <link rel="stylesheet" href="styles.css" class="">
+</head>
+<body ondragover="drag_over(event)" ondrop="drop(event)">
+    
+    <ul class="top_box" id="list" list-style: none>
+        <li class="spawn_place" draggable="false"></li>
+        <!-- <li class="item" id="txt1" draggable="true" ondragstart="drag_start(event)"><img class="img" src="assets/Chars/Humanoids/Archer12.png" draggable="false"></li><br>
+        <li class="item" id="txt2" draggable="true" ondragstart="drag_start(event)"><img class="img" src="assets/Chars/Humanoids/Bard1.png" draggable="false"></li><br>
+        <li class="item" id="txt3" draggable="true" ondragstart="drag_start(event)"><img class="img" src="assets/Chars/Animals/Agresive/Wolf1.png" draggable="false"></li>       -->
+  </ul>
+    <div class="menu">
+        <a href="" class="menu-button">Spawn menu</a>
+        <nav class="menu-nav">
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Elf_M.png">Elf Male</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Elf_W.png">Elf Female</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Half-elf_M.png">Half-elf Male</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Half-elf_W.png">Half-elf Female</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Human_M.png">Human Male</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Human_W.png">Human Female</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Elf_W.png">Archer 7</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Elf_W.png">Archer 8</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Elf_W.png">Archer 9</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Elf_W.png">Archer 10</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Elf_W.png">Archer 11</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Elf_W.png">Archer 12</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Players/Rangers/Elf_W.png">Archer 13</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Humanoids/Assassins/Assassin1.png">Assassin 1</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Humanoids/Assassins/Assassin2.png">Assassin 2</button>
+            <button onclick="changeText2(this)" class="menu-item" slot="assets/Chars/Humanoids/Assassins/Assassin3.png">Assassin 3</button>
+        </nav>
+        <div class="preview" height="160" width="160">
+            <img class="img big" height="160" width="160" id="previewimg" src="assets/Chars/Humanoids/Archers/Archer13.png" draggable="false">
+        </div>
+    </div>
+
+    
+    	<div class="screen"><img class="ibg" src="assets/map2.jpg"></div>
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
