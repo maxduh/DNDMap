@@ -19,10 +19,19 @@ var s2 =  document.getElementById("s2");
 var pb1 =  document.getElementById("pb1");
 var pb2 =  document.getElementById("pb2");
 
+var t1 =  document.getElementById("t1");
+var t2 =  document.getElementById("t2");
+
 var rt1=0;
 var rt2=0;
 
 
+function SecToTime(t){
+    m=Math.floor(t/60);
+    s=Math.floor(t%60);
+    if(s<10){s=`0${s}`}
+    return `${m}:${s}`
+}
 
 
 
@@ -116,6 +125,8 @@ function Update(){
     e2.volume=clamp(v2)*(volume/100);
     pb1.style.width=  `${(e1.currentTime/e1.duration*100)}%`;
     pb2.style.width=  `${(e2.currentTime/e2.duration*100)}%`;
+    t1.textContent =`${SecToTime(e1.currentTime)}/${SecToTime(Math.round(e1.duration))}`;
+    t2.textContent =`${SecToTime(e2.currentTime)}/${SecToTime(Math.round(e2.duration))}`;
     setTimeout(Update, 33);
 }
 

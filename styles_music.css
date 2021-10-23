@@ -1,3 +1,7 @@
+html{
+  font-family: sans-serif;
+}
+
 audio{
     margin: 0px;
     width: 100%;
@@ -193,4 +197,10 @@ body{
   }
   .plate{
     border-radius: 50%;
+  }
+  .time{
+    float: right;
+    margin-top: -20px;
+    margin-right: 5px;
+
   }
