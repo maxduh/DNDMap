@@ -190,3 +190,6 @@ body{
   .button_play{
     margin: 10px 10px;
   }
+  .plate{
+    border-radius: 50%;
+  }
