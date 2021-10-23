@@ -3,7 +3,7 @@ li {
     list-style: none;
 
 }
-.spawn_place{
+.spawn-place{
     height: 80px;
     width: 80px;
     background-color: #222;
@@ -13,7 +13,7 @@ li {
     color: #fff;
 
 }
-.spawn_img{
+.spawn-img{
     margin: 0;
     height: 80;
     width:80;
@@ -59,7 +59,7 @@ body{
     display: flex;
     /* margin: auto; */
 }
-.top_box{
+.top-box{
     height: 80px;
     background: #333;
     margin: 0px;

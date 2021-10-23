@@ -14,7 +14,7 @@ audio{
     
   
 }
-.Name{
+.name{
     width: 40vw;
     background: #262F32;
     color: #F7F7F7;
@@ -94,7 +94,7 @@ body{
      font-family: sans-serif;
 
  }
- .button_play{
+ .button-play{
     margin:15px auto;
     display: table;
     width: 100px;
@@ -106,18 +106,14 @@ body{
     font-size: 30px;
     font-family: sans-serif;
  }
- .button_play:hover{
-     box-shadow: 0px 0px 10px 4px white;
+.button-play:hover{
+    box-shadow: 0px 0px 10px 4px white;
  }
- .button_play:active{
-    box-shadow: 0px 0px 10px 4px gray;
-    background-color: #262F32;
- }
-
-
-
-
- .slidecontainer {
+.button-play:active{
+  box-shadow: 0px 0px 10px 4px gray;
+  background-color: #262F32;
+}
+.slidecontainer {
     width: 100%; /* Width of the outside container */
     margin: 0px;
     padding: 0px;
@@ -125,7 +121,7 @@ body{
     position: absolute;
     bottom: 0;
     border-radius: 0px;
-  }
+}
   
   /* The slider itself */
   .slider {
@@ -175,14 +171,14 @@ body{
     border-radius: 50%;
   }
 
-  .PBar{
+  .pbar{
     height: 25px;
     width: 75%;
     background-color: #161B1D;
     display: table;
      margin: 10px auto ;
   }
-  .PBar_in{
+  .pbar-in{
     height: 100%;
     width: 50%;
     background-color: #04AA6D;
