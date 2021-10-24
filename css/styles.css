@@ -3,7 +3,7 @@ li {
     list-style: none;
 
 }
-.spawn-place{
+.spawn_place{
     height: 80px;
     width: 80px;
     background-color: #222;
@@ -13,7 +13,7 @@ li {
     color: #fff;
 
 }
-.spawn-img{
+.spawn_img{
     margin: 0;
     height: 80;
     width:80;
@@ -59,7 +59,7 @@ body{
     display: flex;
     /* margin: auto; */
 }
-.top-box{
+.top_box{
     height: 80px;
     background: #333;
     margin: 0px;
@@ -93,7 +93,7 @@ body{
     display: flex;
     flex-flow: column;
     height: 500px;
-    width: 200px;
+    width: 250px;
     background-color: #fff;
     overflow-y: auto;
     margin-top: 80px;
@@ -148,9 +148,4 @@ display: none;
 .big{
     height: 160px;
     width: 160px;;
-}
-.music-button{
-    float: right;
-    background: #000;
-    color: #bbb;
 }
