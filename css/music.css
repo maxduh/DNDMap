@@ -175,14 +175,14 @@ body{
     border-radius: 50%;
   }
 
-  .PBar{
+  .pbar{
     height: 30px;
     width: 75%;
     background-color: #161B1D;
     display: table;
      margin: 10px auto ;
   }
-  .PBar_in{
+  .pbar_in{
     height: 100%;
     width: 50%;
     background-color: #04AA6D;
