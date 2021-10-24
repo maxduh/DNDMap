@@ -182,7 +182,7 @@ body{
     display: table;
      margin: 10px auto ;
   }
-  .pbar_in{
+  .pbar-in{
     height: 100%;
     width: 50%;
     background-color: #04AA6D;
@@ -192,7 +192,7 @@ body{
     justify-content: center;
     align-items: center;
   }
-  .button_play{
+  .button-play{
     margin: 10px 10px;
   }
   .plate{
