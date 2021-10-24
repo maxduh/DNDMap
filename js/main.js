@@ -81,10 +81,4 @@ function menu(selector) {
         }
     }
 }
-
-import json from 'assets/Chars/index.json'
-
-
-console.log(json);
-
 menu('.menu');
