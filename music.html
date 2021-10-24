@@ -1,61 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="assets/icon.png">
-    <link rel="stylesheet" href="css/music.css">
-    <title>DnD</title>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="assets/icon.png">
+		<link rel="stylesheet" href="css/music.css">
+		<title>DnD</title>
 </head>
 <body>
-    <!-- <div class="TitleGroup">
-        <p class="Name" id="name1">FACK</p>
-        <p class="Name" id="name2">BLACK MAGIC</p>
-    </div> -->
+	<!-- <div class="name">
+			<p class="" id="name1">FACK</p>
+			<p class="" id="name2">BLACK MAGIC</p>
+	</div> -->
+  <div class="lists"><div class="sublist">
+		<div class="lable">TRACK ONE</div>
+				<select name="d1" id="d1">
+						<option value="assets\MUSIC\BLACK MAGIC.mp3">BLACK MAGIC</option>
+						<option value="assets\MUSIC\CLEANIN' OUT MY CLOSET.mp3">CLEANIN' OUT MY CLOSET</option>
+						<option value="assets\MUSIC\FACK.mp3">FACK</option>
+						<option value="assets\MUSIC\GODZILLA.mp3">GODZILLA</option>
+						<!-- <option value="assets\MUSIC\Get Low.mp3">Get Low</option> -->
+				</select>
+				<div class="cntrls">
+						<button class="button-play" onclick="Set(1)">Play</button>
+						<button class="button-play" onclick="Set(10)">Stop</button>
+				</div>
+				<img class="plate" id="plate1" src="assets\vinyl.webp">
+				<div class="pbar"><div class="pbar-in" id="pb1"></div><span id="t1" class="time">0:11/3:16</span></div>
+		</div><div class="sublist">
+				<span class="lable">TRACK TWO</span>
+				<select name="d2" id="d2">
+						<option value="assets\MUSIC\BLACK MAGIC.mp3">BLACK MAGIC</option>
+						<option value="assets\MUSIC\CLEANIN' OUT MY CLOSET.mp3">CLEANIN' OUT MY CLOSET</option>
+						<option value="assets\MUSIC\FACK.mp3">FACK</option>
+						<option value="assets\MUSIC\GODZILLA.mp3">GODZILLA</option>
+						<!-- <option value="assets\MUSIC\Get Low.mp3">Get Low</option> -->
+				</select>
+				<div class="cntrls">
+						<button class="button-play" onclick="Set(2)">Play</button>
+						<button class="button-play" onclick="Set(20)">Stop</button>
+				</div>
+				<img class="plate" id="plate2" src="assets\vinyl.webp">
+				<div class="pbar"><div class="pbar-in" id="pb2"></div><span id="t2" class="time">0:11/3:16</span></div>
+		</div></div>
+		<div class="slidecontainer">
+				<input type="range" min="0" max="100" value="100" class="slider" id="volume">
+			</div>
 
 
-<div class="lists"><div class="sublist">
-    <div class="lable">TRACK ONE</div>
-        <select name="d1" id="d1">
-            <option value="assets\MUSIC\BLACK MAGIC.mp3">BLACK MAGIC</option>
-            <option value="assets\MUSIC\CLEANIN' OUT MY CLOSET.mp3">CLEANIN' OUT MY CLOSET</option>
-            <option value="assets\MUSIC\FACK.mp3">FACK</option>
-            <option value="assets\MUSIC\GODZILLA.mp3">GODZILLA</option>
-            <!-- <option value="assets\MUSIC\Get Low.mp3">Get Low</option> -->
-        </select>
-        <div class="cntrls">
-            <button class="button_play" onclick="Set(1)">Play</button>
-            <button class="button_play" onclick="Set(10)">Stop</button>
-        </div>
-        <img class="plate" id="plate1" src="assets\vinyl.webp">
-        <div class="PBar"><div class="PBar_in" id="pb1"></div><span id="t1" class="time">0:11/3:16</span></div>
-    </div><div class="sublist">
-        <span class="lable">TRACK TWO</span>
-        <select name="d2" id="d2">
-            <option value="assets\MUSIC\BLACK MAGIC.mp3">BLACK MAGIC</option>
-            <option value="assets\MUSIC\CLEANIN' OUT MY CLOSET.mp3">CLEANIN' OUT MY CLOSET</option>
-            <option value="assets\MUSIC\FACK.mp3">FACK</option>
-            <option value="assets\MUSIC\GODZILLA.mp3">GODZILLA</option>
-            <!-- <option value="assets\MUSIC\Get Low.mp3">Get Low</option> -->
-        </select>
-        <div class="cntrls">
-            <button class="button_play" onclick="Set(2)">Play</button>
-            <button class="button_play" onclick="Set(20)">Stop</button>
-        </div>
-        <img class="plate" id="plate2" src="assets\vinyl.webp">
-        <div class="PBar"><div class="PBar_in" id="pb2"></div><span id="t2" class="time">0:11/3:16</span></div>
-    </div></div>
-    <div class="slidecontainer">
-        <input type="range" min="0" max="100" value="100" class="slider" id="volume">
-      </div>
-
-
-    
-    <audio id="audio1" loop>
-        <source id="s1" src="assets\MUSIC\FACK.mp3">
-    </audio>
-    <audio id="audio2" loop>
-        <source id="s2" src="assets\MUSIC\BLACK MAGIC.mp3">
-    </audio>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/music.js"></script>
+		
+		<audio id="audio1" loop>
+				<source id="s1" src="assets\MUSIC\FACK.mp3">
+		</audio>
+		<audio id="audio2" loop>
+				<source id="s2" src="assets\MUSIC\BLACK MAGIC.mp3">
+		</audio>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/music.js"></script>
 </body>
