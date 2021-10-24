@@ -66,14 +66,10 @@ function menu(selector) {
         }
     });
 
-    items.on('mouseleave', (event) => {
-        button.css('background-color','white');
-    });
-
     function toggleMenu() {
         menu.toggleClass('menu-active');
         if (menu.hasClass('menu-active')) {
-            preview.css('left', '230px');
+            preview.css('left', '280px');
             $('body').css('overflow', 'hidden')
         } else {
             $('body').css('overflow', 'visible')
@@ -81,10 +77,5 @@ function menu(selector) {
         }
     }
 }
-
-import json from 'assets/Chars/index.json'
-
-
-console.log(json);
 
 menu('.menu');
