@@ -81,8 +81,5 @@ function menu(selector) {
         }
     }
 }
-<<<<<<< HEAD
+
 menu('.menu');
-=======
-menu('.menu');
->>>>>>> a34aa5a06ecc7f596e1e4e3d012e7d80c3741db8

@@ -24,7 +24,7 @@ audio{
     display: inline-block;
     align-self:center;
     white-space: nowrap;
-    border-radius: 15px;
+    border-radius: 5px;
     font-family: sans-serif;
 }
 body{
@@ -58,9 +58,10 @@ body{
   display: table;
   background-color:#354246 ;
   border: 0px;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 0px 5px;
   color: #F7F7F7;
+  text-transform: uppercase;
   
 
 
@@ -99,7 +100,7 @@ body{
     display: table;
     width: 100px;
     height: 40px;
-    border-radius: 15px;
+    border-radius: 5px;
     border:0px;
     background-color:#354246;
     color: #F7F7F7;
@@ -181,11 +182,13 @@ body{
     background-color: #161B1D;
     display: table;
      margin: 10px auto ;
+     border-radius: 5px;
   }
   .pbar-in{
     height: 100%;
     width: 50%;
     background-color: #04AA6D;
+    border-radius: 5px;
   }
   .cntrls{
     display: flex;
@@ -195,12 +198,12 @@ body{
   .button-play{
     margin: 10px 10px;
   }
-  .plate{
-    border-radius: 50%;
-  }
   .time{
     float: right;
     margin-top: -25px;
     margin-right: 5px;
     font-size: 20px;
   }
+option{
+  text-transform: uppercase;
+}

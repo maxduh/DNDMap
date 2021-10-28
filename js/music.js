@@ -33,6 +33,31 @@ function SecToTime(t){
     return `${m}:${s}`
 }
 
+function sort(){
+    var my_options = $("#d1 option");
+
+    my_options.sort(function(a,b) {
+        if (a.text > b.text) return 1;
+        else if (a.text < b.text) return -1;
+        else return 0;
+    });
+
+    $("#d1").empty().append(my_options).selectpicker("refresh");
+
+    var my_options2 = $("#d2 option");
+
+    my_options2.sort(function(a,b) {
+        if (a.text > b.text) return 1;
+        else if (a.text < b.text) return -1;
+        else return 0;
+    });
+
+    $("#d2").empty().append(my_options2).selectpicker("refresh");
+};
+sort()
+
+
+
 
 
 volumeE.oninput = function() {
